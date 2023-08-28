@@ -1,0 +1,27 @@
+{
+    "workbench.colorTheme": "Learn with Sumit - Peace of the eye",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.wordWrap": "on",
+    "liveServer.settings.donotVerifyTags": true,
+    "workbench.sideBar.location": "right",
+    "prettier.singleQuote": true,
+    "editor.formatOnSave": true,
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.zoomLevel": 2,
+    "git.autofetch": true,
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 12,
+    "workbench.settings.applyToAllProfiles": ["editor.fontFamily"]
+  }
+  

@@ -44,3 +44,6 @@ cars.sort(function (a, b) {
     return 0;
   }
 });
+console.log('text');
+console.log('hello');
+
