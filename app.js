@@ -46,4 +46,3 @@ cars.sort(function (a, b) {
 });
 console.log('text');
 console.log('hello');
-

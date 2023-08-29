@@ -1,7 +1,7 @@
 {
   // editor
   "editor.fontSize": 12,
-  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "'Operator mono', 'Fira Code', Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.wordWrap": "on",
   "editor.minimap.enabled": false,
@@ -16,7 +16,7 @@
     ]
   },
   // cursor
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "expand",
   // config related to code formatting
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -34,12 +34,19 @@
     "source.fixAll.tslint": true,
     "source.organizeImports": true
   },
+  // Code formatter
+  {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+  }
   "eslint.alwaysShowStatus": true,
   //terminal
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontWeight": "normal",
   "terminal.integrated.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
-  "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+  "workbench.colorTheme": "Learn with Sumit Official Theme",
   "workbench.iconTheme": "vscode-icons",
   // terminal customization
   "workbench.colorCustomizations": {
